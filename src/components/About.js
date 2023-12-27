@@ -2,25 +2,30 @@ import profile2 from '../assets/profile2.jpg';
 
 function About() {
   return (
-    <section>
-      <h1>A little bit about me</h1>
-      <img src={ profile2 } alt="Profile 2" />
-      <div>
-        <h3>Interests</h3>
-        <p>Web & Mobile Application Development, ML/AI</p>
-      </div>
-      <div>
-        <h3>Education</h3>
-        <p>Bachelor's of Computer Science @ Monash University Malaysia</p>
-      </div>
-      <div>
-        <p>
-          Hi there ~ My name is Wong Yuan Yi and I am a Computer Science 
-          student at Monash University Malaysia. I am currently working as
-          a Software Application Intern at Keysight Technologies where I 
-          am working on an in-house manufacturing record system that allows
-          Keysight product testers to report test findings.
-        </p>
+    <section id="about" className="container h-[34.375rem] flex flex-col justify-center px-12 border-t-2 border-[#404040]">
+      <h1 className="text-center mb-5">A little bit about me</h1>
+      <div className="grid grid-cols-10 grid-rows-2 gap-5">
+        <img className="col-span-4 row-span-full w-full h-full rounded-2xl object-cover drop-shadow" src={ profile2 } alt="Profile 2" />
+        <div className="col-span-3 row-span-1 flex flex-col justify-center text-center p-5 border-2 border-black rounded-2xl drop-shadow">
+          <h1>🎨</h1>
+          <h3>Interests</h3>
+          <p>Web & Mobile Application Development, ML/AI</p>
+        </div>
+        <div className="col-span-3 row-span-1 flex flex-col justify-center text-center p-5 border-2 border-black rounded-2xl drop-shadow">
+          <h1>📖</h1>
+          <h3>Education</h3>
+          <p>Bachelor's of Computer Science @ Monash University Malaysia</p>
+        </div>
+        <div className="col-span-6 row-span-2 text-center p-5 border-2 border-black rounded-2xl drop-shadow">
+          <p>
+            Hi there ~ My name is <b>Wong Yuan Yi</b> and I am a Computer 
+            Science student at Monash University Malaysia. I am currently 
+            working asa <b>Software Application Intern</b> at <b>Keysight 
+            Technologies</b> where I am working on an in-house manufacturing
+            record system that allows Keysight product testers to report 
+            test findings.
+          </p>
+        </div>
       </div>
     </section>
   )

@@ -1,12 +1,14 @@
+import { HashLink as Link } from "react-router-hash-link";
+
 function Navbar() {
   return (
-    <nav>
-      <h1>Site name</h1>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Experience</li>
-      </ul>
+    <nav className="container h-[6.25rem] flex justify-between items-center px-12">
+        <h2>Site name</h2>
+        <ul className="flex">
+          <li className="pl-11"><Link smooth to="#home">Home</Link></li>
+          <li className="pl-11"><Link smooth to="#about">About</Link></li>
+          <li className="pl-11"><Link smooth to="#experience">Experience</Link></li>
+        </ul>
     </nav>
   )
 }
