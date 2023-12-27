@@ -49,3 +49,21 @@ p {
 #card, #card * {
   background-color: #E6E7E7;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2, a {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+  }
+
+  p {
+    font-size: 0.75rem;
+  }
+}
