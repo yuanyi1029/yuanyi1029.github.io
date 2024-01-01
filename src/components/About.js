@@ -4,8 +4,8 @@ import profile2 from '../assets/profile2.jpg';
 
 function About() {
   return (
-    <Reveal>
-      <section id="about" className="container h-max md:h-[34.375rem] flex flex-col justify-center px-5 md:px-12 py-8 md:py-0 border-t-2 border-[#404040]">
+    <section id="about" className="container h-max md:h-[34.375rem] flex flex-col justify-center px-5 md:px-12 py-8 md:py-0 border-t-2 border-[#404040]">
+      <Reveal>
         <h1 className="text-center mb-5">A little bit about me</h1>
         <div className="flex flex-col md:grid md:grid-cols-10 grid-rows-2 gap-5 px-12 md:px-0">
           <img className="col-span-4 row-span-full md:w-full md:h-full rounded-2xl object-cover drop-shadow" src={ profile2 } alt="Profile 2" />
@@ -30,8 +30,8 @@ function About() {
             </p>
           </div>
         </div>
-      </section>
-    </Reveal>
+      </Reveal>
+    </section>
   )
 }
 

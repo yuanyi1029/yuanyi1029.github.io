@@ -30,8 +30,8 @@ const experiences = [
 
 function Experience() {
   return (
-    <Reveal>
-      <section id="experience" className="container h-max md:h-[28.25rem] flex flex-col justify-center px-5 md:px-12 py-8 md:py-0 border-t-2 border-[#404040]">
+    <section id="experience" className="container h-max md:h-[28.25rem] flex flex-col justify-center px-5 md:px-12 py-8 md:py-0 border-t-2 border-[#404040]">
+      <Reveal>
         <h1 className="text-center mb-5">Several places I am lucky to be apart of</h1>
         <div className="flex flex-col md:grid md:grid-cols-3 gap-5 px-12 md:px-0">
           {
@@ -51,8 +51,8 @@ function Experience() {
             })
           }
         </div>
-      </section>
-    </Reveal>
+      </Reveal>
+    </section>
   )
 }
 

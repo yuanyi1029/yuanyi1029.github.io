@@ -13,11 +13,10 @@ function Reveal({ children }) {
   }, [isInView])
 
   return (
+    <div ref={ ref } className="relative overflow-hidden">
       <motion.div 
-        ref={ ref }
-        className="relative overflow-hidden"
         variants={{
-          hidden: { opacity: 0, x: 75 },
+          hidden: { opacity: 0, x: 50 },
           visible: { opacity: 1, x: 0 }
         }}
         initial="hidden"
@@ -26,6 +25,7 @@ function Reveal({ children }) {
       >
         { children }
       </motion.div>
+    </div>
   )
 }
 
