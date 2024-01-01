@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a89b7d58.css",
-    "main.js": "/static/js/main.08cc16a7.js",
+    "main.js": "/static/js/main.9a88ffbb.js",
     "static/media/profile1.png": "/static/media/profile1.c413fbe92eb72948dcbe.png",
     "static/media/keysight.png": "/static/media/keysight.07cef98e945a7f40599b.png",
     "static/media/monash.png": "/static/media/monash.8742df3222302d817192.png",
@@ -9,10 +9,10 @@
     "static/media/mumtec.png": "/static/media/mumtec.afa58cdbd3d98c9c6d34.png",
     "index.html": "/index.html",
     "main.a89b7d58.css.map": "/static/css/main.a89b7d58.css.map",
-    "main.08cc16a7.js.map": "/static/js/main.08cc16a7.js.map"
+    "main.9a88ffbb.js.map": "/static/js/main.9a88ffbb.js.map"
   },
   "entrypoints": [
     "static/css/main.a89b7d58.css",
-    "static/js/main.08cc16a7.js"
+    "static/js/main.9a88ffbb.js"
   ]
 }
